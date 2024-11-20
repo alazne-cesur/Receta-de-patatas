@@ -1,0 +1,53 @@
+/* Márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #ccccfc;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #ff7b00c0;
+    padding: 20px;
+    border-radius: 120px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #640d0d;
+}
+
+/* Imagen */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Secciones */
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 28px;
+    color: #a10000;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 40px;
+}
